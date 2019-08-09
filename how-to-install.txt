@@ -1,0 +1,4 @@
+1. install gulp-cli via npm
+2. install gulp
+3. install gulp-sass
+4. create gulpfile.js - this is where the taskrunner configuration is stored. (vanilla js)

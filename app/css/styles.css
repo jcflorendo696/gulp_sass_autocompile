@@ -1,0 +1,30 @@
+.fatty {
+  width: 85.71429%; }
+
+.header {
+  color: #fff; }
+
+.subtitle {
+  color: #eee; }
+
+nav ul {
+  background-color: #000; }
+
+nav li {
+  display: inline-block; }
+
+nav #h3 {
+  color: #fff; }
+
+.panel, .inner-panel {
+  border: 5px solid red; }
+
+.inner-panel {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  font-size: 12px; }
+
+h1 {
+  color: #000; }

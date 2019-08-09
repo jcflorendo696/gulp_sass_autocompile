@@ -1,0 +1,55 @@
+$primary-color: #fff;
+$secondary-color: #eee;
+$background-black: #000;
+
+@mixin border-radius($radius){
+    border-radius: $radius;
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+
+.fatty{
+    width: percentage(6/7);
+}
+
+.header{
+    color: $primary-color;
+}
+
+.subtitle{
+    color: $secondary-color;
+}
+
+
+nav{
+    ul{
+        background-color: $background-black;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    #h3{
+        color: $primary-color;
+    }
+}
+
+
+
+.panel{
+    border: 5px solid red;
+}
+
+.inner-panel{
+    @extend .panel;
+    @include border-radius(5px);
+    font-size: 12px;
+}
+
+h1{
+    color: #000;
+}
+// Test
